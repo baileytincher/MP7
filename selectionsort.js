@@ -23,20 +23,6 @@ function SelectionSort(list) {
 
         }
         return list;
-
     }
 
-        var list1 = [7, 5, 8, 9, 3, 4, 2];
-        selectionSort(list1);
-
-        for (int i = 0; i < list1.length; i++) {
-
-            if ( i == list1.length - 1) {
-                console.log( list1[i] + "." );
-            } else {
-                console.log( list1[i] + ", ");
-            }
-        }
-    }
-
-}
+       
