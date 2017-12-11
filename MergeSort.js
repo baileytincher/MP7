@@ -1,11 +1,11 @@
-function mergeSort(var arr) {
+function mergeSort(arr) {
 	if (arr.length <= 1) return;
 	
 	var midP = arr.length / 2;
 	
 	var left = [], right = [];
-	for (int i = 0; i < midP; i++) left.push(arr[i]);
-	for (int j = midP; j < arr.length; j++) right.push(arr[j]);
+	for (var i = 0; i < midP; i++) left.push(arr[i]);
+	for (var j = midP; j < arr.length; j++) right.push(arr[j]);
 	
 	mergeSort(left);
 	mergeSort(right);
@@ -13,7 +13,7 @@ function mergeSort(var arr) {
 	merge(arr, left, right);
 }
 
-function merge(var arr, var left, var right) {
+function merge(arr, left, right) {
 	var i = 0, j = 0;
 	while (i < left.length && j < right.length)
 		arr.push(left[i] < right[j] ? left[i++] : right[j++]);
