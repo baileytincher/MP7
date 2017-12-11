@@ -4,6 +4,7 @@ var delx;
 
 function setup() {
 	createCanvas(1000, 300);
+	pixelDensity(1);
 	background(200);
 	
 	for (var i = 0; i < 20; i++) {
