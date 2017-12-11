@@ -1,6 +1,6 @@
 // Bubble Sort
 
-function BubbleSort(list) {
+function subbleSort(list) {
 
         var temp = 0;
         for (var i = 0; i < array.length - 1; i++) {
