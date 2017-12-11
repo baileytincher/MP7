@@ -24,7 +24,7 @@ function draw() {
 function addPoint(p) {
 	fill(0);
 	
-	ellipse(10 + delx * ptsDisp.length, canvas.height - p * canvas.height, 10, 10);
+	ellipse(10 + delx * ptsDisp.length, canvas.height - 50 - (p * canvas.height / 2), 10, 10);
 	
 	ptsDisp.push(p);
 }
