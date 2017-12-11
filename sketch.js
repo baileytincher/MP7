@@ -3,7 +3,7 @@ var data = [];
 var delx;
 
 function setup() {
-	createCanvas(1000, 500);
+	createCanvas(1000, 300);
 	background(200);
 	
 	for (var i = 0; i < 20; i++) {
